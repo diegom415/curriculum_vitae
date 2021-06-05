@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+.content {
+    width: 900px;
+    margin: 25px auto;
+    padding: 0 20px;
+}
+.header {
+    background: #292b2f;
+    padding: 15px 30px;
+    color: #fff;
+    height: 240px;
+}
+.header .name_role .name {
+    font-size: 52px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #3525af;
+}
+.header .role {
+    font-weight: 300;
+    font-size: 20px;
+}
+.header .about {
+    margin-top: 20px;
+    line-height: 26px;
+}
+.rcontent {
+    padding: 30px;
+    color: #292B2F;
+}
+.exp .title {
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+    color: #000;
+    position: relative;
+    text-align:center;
+    margin-bottom: 15px;
+}
+.exp .title:before {
+    content: "";
+    position: absolute;
+    top: 35;
+    right: 0;
+    width: 50px;
+    height: 3px;
+    color: #000;
+}
+.rcontent .education {
+    margin-top: 30px;
+}
+.rcontent .exp_wrap .li_wrap {
+    display: flex;
+    margin-bottom: 15px;
+}
+.rcontent .exp_wrap .li_wrap .date {
+    width: 90px;
+    color: #9153C9;
+}
+.rcontent .li_wrap .info {
+    width: calc(100% - 90px);
+    padding-left: 25px;
+    position: relative;
+}
+.rcontent .li_wrap .info_title {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.7px;
+    color: #9153C9;
+}
+.rcontent .li_wrap .info_com {
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 3px;
+}
+.rcontent .li_wrap .info_cont {
+    margin-top: 15px;
+}
+.rcontent .li_wrap .info:before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background: #9153C9;
+    border-radius: 50%;
+}
+.rcontent .li_wrap .info:after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 2px;
+    height: 90%;
+    background: #9153C9;
+}
+

@@ -1,0 +1,258 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "ubuntu",sans-serif;
+}
+body {
+   background: linear-gradient(to derecha, #E5E5E5,  #0F1324);
+}
+.resume {
+    width: 900px;
+    background: #b6b5b5;
+    margin: 25px auto;
+    display: flex;
+    border-radius: 10px;
+}
+.izquierda {
+    background: #010d44;
+    width: 290px;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+.derecha {
+    width: calc(100% - 250px);   
+}
+h1{
+    color: #0202f5;
+    text-align: center;
+}
+.izquierda .profile{
+    text-align: center;
+    padding: 20px 0;
+}
+.izquierda .profile img {
+    width: 160px;
+    border-radius: 20px;
+}
+.pb {
+    padding-bottom: 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+    color: #fff;
+    position: relative;
+    text-align: right;
+    margin-bottom: 15px;
+}
+.title:before {
+    content: "";
+    position: absolute;
+    top: 35px;
+    right: 0;
+    width: 50px;
+    height: 3px;
+    background: #fff;
+}
+.izquierda .icon {
+    font-size: 20px;
+    color: rgb(65, 13, 209);
+}
+.contacto .li-wrap:hover .text{
+    color: #08fad2f1;
+}
+.izquierda .text {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.contacto .li-wrap {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.contacto .li-wrap .icon {
+    width: 50px;
+    height: 50px;
+    background: #b6b5b5;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+.contacto .li-wrap .text {
+    width: calc(100% - 50px);
+    word-break: break-word;
+    color: #b6b5b5;
+}
+.skills ul,
+.hobbies ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.skills .li-wrap,
+.hobbies .li-wrap {
+width: 100px;
+height: 100px;
+margin-bottom: 15px;
+border-radius: 15px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.skills .li-wrap .text,
+.hobbies .li-wrap .text {
+    margin-top: 5px;
+}
+hr {
+    display: flex;
+    width: 50%;
+    text-align: center;
+    margin-top: 3px;
+    margin: auto;
+    border: 2px solid #010d44;
+    border-bottom: 2px;
+}
+.hobbies .li-wrap {
+    border: 2px solid #fff;
+}
+.skills .li-wrap .icon,
+.hobbies .li-wrap .text{
+    color: #fff;
+}
+.skills .li-wrap:hover .icon,
+.skills .li-wrap:hover .text {
+    color: #f80808;
+}
+.hobbies .li-wrap:hover {
+    background: #9153c9;
+    transition: ease-in .4s;
+}
+
+.hobbies .li-wrap:hover .text {
+    columns: #9153c9;
+}
+.derecha {
+    width: 610px;
+    padding: 25px;
+}
+.derecha .obj {
+    color: #01002c;
+}
+.derecha .culum_work ul, 
+.derecha .culum_formacion ul {
+padding-left: 40px;
+overflow: hidden;
+}
+.derecha ul li {
+    position: relative;
+}
+.derecha ul li .date {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.derecha ul li .info {
+    margin-bottom: 20px;
+}
+.derecha ul li:last-child .info {
+    margin-bottom: 0;
+}
+.semi_bold {
+    font-weight: 500;
+    font-size: 16px;
+}
+.derecha .culum_work ul li:before, 
+.derecha .culum_formacion ul li:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 2px solid #0202f5;
+}
+.derecha .culum_work ul li:after, 
+.derecha .culum_formacion ul li:after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -21px;
+    width: 3px;
+    height: 115px;
+    background: #0707f1;
+}
+.derecha .culum_hobby ul{
+    display: flex;
+    justify-content: space-between;
+}
+.derecha .culum_hobby ul li {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #3d3d4b;
+    border-radius: 30%;
+    position: relative;
+    color: #01002c;
+}
+.derecha .culum_hobby ul li i {
+    font-size: 30px;
+}
+.references article {
+    display: flex;
+    width: 50%;
+    text-align: center;
+    margin-top: 3px;
+    margin: auto;
+    border: 2px solid #010d44;
+    border-bottom: 2px; 
+}
+.comp img {
+    width: 40%;
+}
+.lee {
+    color: #348585;
+}
+.OJP {
+    font-size: 20px;
+    color:#348585;
+    text-align: center;
+    margin-top: 3px;
+    margin: auto;
+    border-bottom: 2px;
+}
+.refer{
+    font-size: 20px;
+    color:#348585;
+}
+.contenido {
+    display: flex;
+    margin-top: 3px;
+}
+.w3-container a {
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+}
+.w3-container p {
+    font-size: 14px;
+    left: 10px;
+}
+
+
+
+
+
+
+
+
